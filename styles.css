@@ -1,6 +1,6 @@
 body {
   background-color: rgba(224, 246, 228, 0.438);
-  background-image: url("/interactivity/bg.png");
+  background-image: url("./bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
