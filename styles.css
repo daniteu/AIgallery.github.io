@@ -1,0 +1,99 @@
+body {
+  background-color: rgba(224, 246, 228, 0.438);
+  background-image: url("/interactivity/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+}
+.fa-solid {
+  color: rgb(153, 254, 254);
+  font-size: 40px;
+  margin-top: 0.7rem;
+}
+.project {
+  font-family: "Albert Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+.project :hover {
+  color: aqua;
+}
+nav {
+  background-color: #020c0e;
+  opacity: 1;
+  margin: 0;
+  padding: 15px;
+  z-index: 10;
+  display: flex;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.brand {
+  margin: 0;
+  font-size: 3rem;
+  cursor: grab;
+  z-index: 100;
+  display: flex;
+  padding-right: 1rem;
+  position: relative;
+}
+
+.swiper {
+  width: 900px;
+  height: 655px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+img {
+  height: 600px;
+  width: 600px;
+  border: 0.5rem solid black;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  font-family: "Albert Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.copyright,
+a {
+  display: flex;
+  justify-content: center;
+  font-family: "Albert Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  color: rgb(162, 226, 244);
+}
+
+.copyright :hover {
+  color: grey;
+}
+
+.myPro {
+  color: white;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(162, 226, 244);
+}
+
+.swiper-pagination-bullet {
+  background-color: rgb(162, 226, 244);
+}
