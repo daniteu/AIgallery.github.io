@@ -1,3 +1,7 @@
+html {
+  zoom: 0.8; /* Old IE only */
+}
+
 body {
   background-color: rgba(224, 246, 228, 0.438);
   background-image: url("./bg.png");
